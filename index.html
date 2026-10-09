@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Nomthandazo 🎀</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Pacifico&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  background:
+    radial-gradient(600px at 20% 10%, #bae6fd 0%, transparent 60%),
+    radial-gradient(700px at 90% 20%, #fbcfe8 0%, transparent 60%),
+    radial-gradient(800px at 50% 100%, #fce7f3 0%, transparent 60%),
+    #fff6fa;
+  font-family:'Poppins',sans-serif;padding:18px;overflow:hidden
+}
+.glow{
+  position:absolute;width:420px;height:420px;background:radial-gradient(circle, rgba(147,197,253,.35) 0%, transparent 70%);
+  top:-80px;right:-80px;filter:blur(10px);pointer-events:none
+}
+.card{
+  position:relative;background:rgba(255,255,255,.9);backdrop-filter:blur(24px);
+  width:395px;border-radius:38px;padding:28px 22px 22px;
+  box-shadow:0 30px 90px rgba(255,90,138,.18), 0 0 0 1.5px white inset;
+  text-align:center
+}
+.top{
+  display:inline-flex;align-items:center;gap:8px;
+  background:linear-gradient(90deg,#eff6ff,#fdf2f8);border:1px solid #dbeafe;
+  padding:8px 16px;border-radius:100px;font-size:11px;font-weight:800;letter-spacing:.9px;color:#3b82f6
+}
+.top i{font-size:13px}
+.script{
+  font-family:'Pacifico',cursive;font-size:38px;color:#111827;margin-top:16px;line-height:1;
+  position:relative
+}
+.script:after{
+  content:'🎀';position:absolute;top:-12px;right:24px;font-size:20px;transform:rotate(12deg)
+}
+.name{
+  font-family:'Playfair Display',serif;font-size:38px;font-weight:700;
+  background:linear-gradient(90deg,#ff5a8a 0%, #ff8fab 45%, #60a5fa 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  margin-top:2px;letter-spacing:-.5px
+}
+.sub{color:#a1a1b5;font-size:13px;margin-top:12px;line-height:1.5;padding:0 10px}
+
+.count{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:22px 0 14px
+}
+.unit{
+  background:white;border-radius:22px;padding:14px 4px 10px;
+  border:1px solid #f3f4f6;box-shadow:0 12px 24px rgba(0,0,0,.04), inset 0 -2px 0 #f9a8d4;
+  position:relative;overflow:hidden
+}
+.unit:before{
+  content:'';position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,#93c5fd,#f9a8d4)
+}
+.unit b{font-size:26px;font-weight:800;color:#111827;display:block}
+.unit span{font-size:10px;font-weight:700;color:#9ca3af;letter-spacing:1px;margin-top:2px;display:block}
+
+.bar{height:5px;background:#f1f5f9;border-radius:100px;overflow:hidden;margin:8px 4px 20px}
+.bar i{display:block;height:100%;width:0%;background:linear-gradient(90deg,#60a5fa,#f472b6,#f9a8d4);border-radius:100px}
+
+.btn{
+  width:100%;padding:17px;border:none;border-radius:100px;
+  background:#111827;color:white;font-weight:800;font-size:14px;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  box-shadow:0 16px 32px rgba(17,24,39,.22);cursor:pointer;position:relative;overflow:hidden
+}
+.btn:disabled{opacity:.7}
+.btn .shine{position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);transform:translateX(-100%);animation:shine 2s infinite}
+@keyframes shine{100%{transform:translateX(100%)}}
+.btn i.fa-lock{color:#93c5fd}
+.btn i.fa-gift{color:#f9a8d4}
+
+.foot{margin-top:14px;font-size:11.5px;color:#a7b1cc;display:flex;align-items:center;justify-content:center;gap:6px}
+.foot i{color:#93c5fd}
+
+.bow{
+  position:absolute;font-size:18px;animation:float 3s infinite ease-in-out;pointer-events:none
+}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-10px) rotate(8deg)}}
+
+.ribbon{
+  position:absolute;top:-2px;right:22px;background:#60a5fa;color:white;
+  padding:8px 10px 14px;border-radius:0 0 12px 12px;font-size:14px;
+  box-shadow:0 8px 16px rgba(96,165,250,.4)
+}
+.ribbon:after{
+  content:'';position:absolute;bottom:-8px;left:0;width:100%;height:10px;
+  background:#60a5fa;clip-path:polygon(0 0,50% 100%,100% 0)
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="glow"></div>
+  <div class="ribbon"><i class="fa-solid fa-bow"></i> <i class="fa-solid fa-heart" style="font-size:10px"></i></div>
+  
+  <span class="bow" style="top:18px;left:18px">🎀</span>
+  <span class="bow" style="top:60px;right:8px;animation-delay:.5s">🩵</span>
+  <span class="bow" style="bottom:90px;left:-6px;animation-delay:1s">💗</span>
+
+  <div class="top"><i class="fa-solid fa-lock"></i> LOCKED UNTIL 4TH NOVEMBER</div>
+
+  <div class="script">Countdown for</div>
+  <div class="name">Nomthandazo</div>
+  <div class="sub">something sparkly is waiting for you on your day — come back at midnight</div>
+
+  <div class="count">
+    <div class="unit"><b id="d">25</b><span>DAYS</span></div>
+    <div class="unit"><b id="h">03</b><span>HOURS</span></div>
+    <div class="unit"><b id="m">36</b><span>MINS</span></div>
+    <div class="unit"><b id="s">12</b><span>SECS</span></div>
+  </div>
+
+  <div class="bar"><i id="bar"></i></div>
+
+  <button class="btn" id="btn" disabled onclick="go()">
+    <div class="shine"></div>
+    <i class="fa-solid fa-lock" id="ico"></i>
+    <span id="txt">Unlocks on 4th November</span>
+    <i class="fa-solid fa-gift"></i>
+  </button>
+
+  <div class="foot"><i class="fa-solid fa-wand-magic-sparkles"></i> come back at midnight, Nena♡</div>
+</div>
+
+<script>
+  const target = new Date(new Date().getFullYear(), 10, 4, 0, 0, 0);
+  if(target < new Date()) target.setFullYear(target.getFullYear()+1);
+  const total = target - new Date();
+  const d=document.getElementById('d'), h=document.getElementById('h'), m=document.getElementById('m'), s=document.getElementById('s'), bar=document.getElementById('bar'), btn=document.getElementById('btn'), txt=document.getElementById('txt'), ico=document.getElementById('ico');
+
+  function tick(){
+    const diff = target - new Date();
+    if(diff<=0){
+      d.textContent=h.textContent=m.textContent=s.textContent='00';
+      bar.style.width='100%';
+      btn.disabled=false;
+      btn.style.background='linear-gradient(90deg,#60a5fa,#ff5a8a)';
+      ico.className='fa-solid fa-gift';
+      txt.textContent='Open your surprise, Nomthandazo';
+      return;
+    }
+    d.textContent=String(Math.floor(diff/86400000)).padStart(2,'0');
+    h.textContent=String(Math.floor(diff/3600000)%24).padStart(2,'0');
+    m.textContent=String(Math.floor(diff/60000)%60).padStart(2,'0');
+    s.textContent=String(Math.floor(diff/1000)%60).padStart(2,'0');
+    bar.style.width=((total-diff)/total*100)+'%';
+  }
+  setInterval(tick,1000); tick();
+
+  function go(){
+    const link = null; // <-- ADD YOUR SURPRISE LINK HERE LATER
+    if(!link){ txt.textContent='Still locked... 4th Nov!'; setTimeout(()=>txt.textContent='Unlocks on 4th November',1300); return; }
+    location.href=link;
+  }
+</script>
+</body>
+</html>
